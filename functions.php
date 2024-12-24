@@ -184,3 +184,8 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * custom meta box
   */
   require get_template_directory() . '/inc/page-rating.php';
+
+/**
+ * Load More button Ajax
+ */
+require get_template_directory() . '/inc/load-more.php';
